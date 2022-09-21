@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简历</title>
+</head>
+<style>
+    body{
+        margin-left: 300px;
+        margin-right: 300px;
+        height: 100%;
+        background-color:rgb(201, 194, 200);
+    }
+    /* *{
+        border: 1px solid black;
+    } */
+    .flex{
+        display: flex;
+    }
+    .flex1{
+        flex:1;
+    }
+    .colummn{
+        flex-direction: column;
+    }
+    .baise{
+        background-color: white;
+    }
+    .mgr{
+        margin-right: 8px;
+    }
+    .mgt{
+        margin-top: 8px;
+    }
+    .name{
+        padding-left: 50px;
+        font-size: 60px;
+        padding-top:20px;
+        font-weight: 200;
+    }
+    .jiaoyu{
+        padding-left: 40px; 
+        padding-top: 20px; 
+        padding-bottom: 20px; 
+    }
+    .jingli{
+        padding-left: 40px;
+        padding-top: 5px;
+        line-height: 2;
+        padding-right: 40px;
+        padding-bottom: 20px;
+    }
+    .xiaozhaopian{
+        width:"30px"; 
+        height:"30px" ;
+        margin:10px ;
+    }
+</style>
+<body class="column" >
+    <div style="height:100px;  border: 4px solid burlywood; background-color:azure; margin-bottom: 8px;" >
+        <p align="center" style="font-size: 45px; margin: 20px; color: blue">个人简历</p>
+    </div>
+    <div class="flex1 flex">
+         <!-- 左区 -->
+         <div style="width: 300px;" class="column">
+            <div style="height: auto;" class="mgr baise">   
+                <img src="照片存放处/简历照.jpg" width="200px"; height="280px"; style="margin-top: 60px; margin-left: 50px; margin-bottom: 60px;" alt="简历照片">
+            </div>
+            <div style="height: auto; padding-bottom: 40px;" class="mgr mgt baise">
+                <h2 style="padding-left: 40px; padding-top: 80px;">个人信息</h2>
+                <div class="flex">
+                    <!-- 小照片区 -->
+                    <div class="column" style=" flex:1; padding-left: 25px; padding-bottom: 40px;" >
+                        <div style="margin-top: 20px;"><img src="照片存放处/性别小图标.png" width="30px" height="30px" style="margin:10px ;" alt="性别"></div>
+                        <div><img src="照片存放处/年龄.jpg" width="30px" height="30px" style="margin: 10px;" alt="年龄"></div>
+                        <div><img src="照片存放处/电话小图标.jpeg" width="30px" height="30px" style="margin: 10px;" alt="电话"></div>
+                        <div><img src="照片存放处/邮箱小图标.png" width="30px" height="30px" style="margin: 10px;" alt="邮箱"></div>
+                    </div>
+                    <!-- 信息区 -->
+                    <div class="column flex1" style="flex:3">
+                        <p style="line-height: 3.4;">男<br>
+                            2000.01.19 <br>
+                            15582752375 <br>
+                            15582752375@189.cn</p>
+                    </div>
+                </div>
+            </div>
+            <div style="height: auto; padding-bottom: 200px;" class="mgr mgt baise ">              
+                <h2 style="padding-top: 100px; padding-left: 40px;">兴趣爱好</h2>
+                <p style="padding-top: 30px; padding-left: 80px;">阅读，旅游，看动漫</p>
+            </div>
+        </div>
+         <!-- 右区 -->
+         <div class="flex1 column">
+            <div style="height:auto; padding-bottom: 20px;" class="baise name">张小冬</div>
+            <div style="height: auto;" class="mgt baise jiaoyu">
+                <h2>教育经历</h2>
+                <p style="font-size:15px; line-height: 2;">苏州大学应用技术学院　　　　　　2019.9——2023.6 <br> 物联网工程专业 　　　　　本科</p>
+            </div>
+            <div style="height: auto;" class="mgt baise jingli">
+                <h2>在校经历</h2>
+                <p>●大一在功夫社因为在社团活动中的优异表现获得优秀社员称号<br>
+                    ●参加过多个老师的教师协助岗，帮助老师处理日常事物<br>
+                    ●参加学生会组织，跟进组织活动流程，协助完成学生会各类活动共四场，参与人数累计500余人<br>
+                    ●志愿者服务，根据体温检测要求，单日完成体温测量100余人</p>
+            </div>
+            <div style="height: auto;" class="mgt baise jingli">
+                <h2>项目经历</h2>
+                <p>●跟进作业要求，完成六大类资料的收集整理，为项目PPT提供资料基础<br>
+                    ●跟进小组成员沟通，讨论不同观点3个，使小组成员达成一致意见<br>
+                    ●汇总项目资料，完成20页的PPT项目报告</p>
+            </div>
+            <div style="height: auto;" class="mgt baise jingli">
+                <h2>兼职经历</h2>
+                <p>●全国人口普查录入人员<br>
+                    ●采访录音为学长课题提供事实依据<br>
+                    ●自媒体运营<br>●启航教育代理</p>                               
+            </div>
+            <div style="height: auto;" class="mgt baise jingli">
+                <h2>自我评价</h2>
+                <p>●我性格开朗，稳重，有活力，真诚，良好的社交能力，可以快速适应环境。反思能力强，能精准的发现问题并及时改正</p>
+            </div>
+         </div>
+    </div>
+</body>
+</html> 
